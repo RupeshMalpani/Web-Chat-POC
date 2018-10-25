@@ -1,0 +1,23 @@
+<div class="login_wrapper">
+  <form (ngSubmit)="onLoginHandler(f)" #f="ngForm">
+    <div class="row">
+      <div class="col-md-12 row_space">
+        <label for="" class="col-md-6">Username</label>
+        <span class="col-md-6">
+          <input type="text" id="userName" name="username" ngModel class="form form-control" />
+        </span>
+      </div>
+      <div class="col-md-12 row_space">
+        <label for="" class="col-md-6">Password</label>
+        <span class="col-md-6">
+          <input type="password" id="password" name="password" ngModel class="form form-control" />
+        </span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+          <button type="submit" class="btn btn-primary" (click)="onLoginHandler(f)">Login</button>
+      </div>
+    </div>
+  </form>
+</div>

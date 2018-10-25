@@ -1,43 +1,27 @@
-# Web-Chat-POC
-Web Chat POC
+# WebMessagingApp
 
-Dependencies:
-Install latest version of Nodejs,npm (Reference : https://nodejs.org/en/).
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
-Install latest version of angular-cli (use this command: npm install -g @angular/cli)
+## Development server
 
-Generating and serving an Angular project via a development server:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Download the source code from the git account
+## Code scaffolding
 
-cd PROJECT-NAME
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Install node modules(use this command : npm install)
+## Build
 
-ng serve
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Navigate to http://localhost:4200/.
+## Running unit tests
 
-you will see an application with login page :
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Login using the following credentials :
+## Running end-to-end tests
 
-Test accounts:
-username : gregalla password: innominds@123
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-username : shyam password: innominds@123
+## Further help
 
-username : tmarthy password: innominds@123
-
-username : skalki password: innominds@123
-
-Implemented Features :
-Implemented login with QuickBlox credentials.
-
-Creating the session for logged in user.
-
-Fetching the users from the API.
-
-Implemented chat with other users in the users list.
-
-Notification for the user when other user messaged to our account.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

@@ -1,0 +1,38 @@
+.userList a {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 10px;
+    display: block;
+}
+
+.userList a:hover {
+    background: #e4e1e1;
+}
+
+.userList a.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+}
+.receivedMessage {
+    background-color: #fff;
+}
+.receivedMessage .userName{
+    color: #32CD32;
+}
+
+.profile_pic_styles {
+    background: #25d366;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 38px;
+}
+
+.userName {
+    color: #000;
+}
