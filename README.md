@@ -1,27 +1,21 @@
-# WebMessagingApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Dependencies:
+Install latest version of Nodejs,npm (Reference : https://nodejs.org/en/) Install latest version of angular-cli (use this command: npm install -g @angular/cli)
+Generating and serving an Angular project via a development server:
+Download the source code from the git account
+cd PROJECT-NAME
+Install node modules(use this command : npm install)
+ng serve
+Navigate to http://localhost:4200/.
+you will see an application with login page :
+Login using the following credentials :
+Test accounts:
+username : gregalla password: innominds@123
+username : shyam password: innominds@123
+username : tmarthy password: innominds@123
+username : skalki password: innominds@123
+Implemented Features :
+Implemented login with QuickBlox credentials.
+Creating the session for logged in user.
+Fetching the users from the API.
+Implemented chat with other users in the users list.
+Notification for the user when other user messaged to our account.
