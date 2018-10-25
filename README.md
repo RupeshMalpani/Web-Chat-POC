@@ -22,7 +22,11 @@ username : skalki password: innominds@123
 
 Implemented Features :
 Implemented login with QuickBlox credentials.
+
 Creating the session for logged in user.
+
 Fetching the users from the API.
+
 Implemented chat with other users in the users list.
+
 Notification for the user when other user messaged to our account.
