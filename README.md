@@ -1,4 +1,5 @@
 Dependencies:
+
 Install latest version of Nodejs,npm (Reference : https://nodejs.org/en/)
 
 Install latest version of angular-cli (use this command: npm install -g @angular/cli)
