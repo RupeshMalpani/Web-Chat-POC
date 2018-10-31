@@ -17,9 +17,9 @@ export class LoginComponent implements OnInit {
       "turnserver_endpoint": "turnserver.quickblox.com"
   };
   public CREDENTIALS:any = {
-    appId: 74282,
-    authKey: 'ENFggvVB2trchUa',
-    authSecret: 'MQTsDR6cFLWHdOq'
+    appId: 74341,
+    authKey: 'hXPAK3TAtBGNe-N',
+    authSecret: 'FWpsuS4sfgXfyKb'
   };
   public user : any = {
     login: '',
@@ -34,7 +34,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-  onLoginHandler(form: NgForm) {debugger;
+  onLoginHandler(form: NgForm) {
     const value = form.value;
     QB.init(this.CREDENTIALS.appId, this.CREDENTIALS.authKey, this.CREDENTIALS.authSecret, this.endpoints );
     QB.createSession({login: value.username, password: value.password}, (err, res) => {
