@@ -22,14 +22,13 @@ Login using the following credentials :
 
 Test accounts:
 
-username : gregalla password: innominds@123
+username : rupesh password: innominds@123
 
-username : shyam password: innominds@123
+username : basha password: innominds@123
 
-username : tmarthy password: innominds@123
+username : tara password: innominds@123
 
-
-username : skalki password: innominds@123
+username : leela password: innominds@123
 
 Implemented Features :
 
