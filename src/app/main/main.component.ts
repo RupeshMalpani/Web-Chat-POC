@@ -18,9 +18,9 @@ export class MainComponent implements OnInit {
       "turnserver_endpoint": "turnserver.quickblox.com"
   };
   public CREDENTIALS:any = {
-    appId: 74282,
-    authKey: 'ENFggvVB2trchUa',
-    authSecret: 'MQTsDR6cFLWHdOq'
+    appId: 74341,
+    authKey: 'hXPAK3TAtBGNe-N',
+    authSecret: 'FWpsuS4sfgXfyKb'
   };
   public user : any = {
     name: 'gregalla',
@@ -36,7 +36,7 @@ export class MainComponent implements OnInit {
   ) { 
     this.user.token = route.snapshot.params['token'];
   }
-  receiveMessage = (userId,msg) => {debugger;
+  receiveMessage = (userId,msg) => {
     this.notificationObj = {
       from : userId,
       body: msg.body
