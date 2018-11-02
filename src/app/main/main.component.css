@@ -1,7 +1,13 @@
+.chatContainer {
+    width: 810px;
+    margin: 0 auto;
+}
+
 .selectUser{
     background: #ece5dd;
-    width: 600px;
-    height: 460px;
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 465px;
     margin: 0;
     padding: 20px;
 }
