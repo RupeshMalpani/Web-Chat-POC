@@ -1,8 +1,8 @@
 .users_chat_wrapper {
     border: 1px solid #ccc;
     border-width: 1px 1px 1px 0;
-    width: 600px;
-    height: 463px;
+    width: 500px;
+    height: 465px;
     overflow: auto;
     position: relative;
 }
@@ -10,11 +10,21 @@
 .user_chat_screen{
     background: #075e54;
     border-bottom: 1px solid #ccc;
+    border-left: 1px solid #fff;
     padding: 10px;
 }
 
-.user_chat_screen h4 {
+.user_chat_screen h4,
+.user_chat_screen h6 {
     color: #fff;
+}
+
+.user_chat_screen h4{
+    margin-top: 0;
+}
+
+.user_chat_screen h6 {
+    margin-bottom: 0;
 }
 
 .type_message {
